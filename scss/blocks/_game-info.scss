@@ -1,0 +1,86 @@
+@import "bg-container.scss";
+@import "gaming-bg.scss";
+
+.gameinfo__main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  .gameinfo__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &-title {
+      width: 826px;
+      color: #fff;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 187.5%;
+      margin-bottom: 25px;
+      padding-top: 93px;
+    }
+
+    &-text {
+      color: #fff;
+      text-align: center;
+      line-height: 187.5%;
+      width: 820px;
+      margin-bottom: 99px;
+    }
+  }
+
+  .gameinfo__cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .gameinfo__inner-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 100px;
+      margin-bottom: 62px;
+
+      .gameinfo__card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &-img {
+          cursor: pointer;
+          background-color: #fff;
+          padding: 17px;
+          border: 2px solid transparent;
+          border-radius: 50px;
+          margin-bottom: 30px;
+          transition: 0.4s ease-in-out;
+        }
+
+        &-img:hover {
+          background-color: transparent;
+          padding: 17px;
+          border-radius: 50px;
+          margin-bottom: 30px;
+          border: 2px solid #dc7000;
+          transition: 0.4s ease-in-out;
+          transform: scale(1.08);
+        }
+
+        &-text {
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+          line-height: 187.5%;
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}

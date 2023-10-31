@@ -1,0 +1,54 @@
+.hero {
+  &__wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+    padding-bottom: 85px;
+    background-image: url(../../img/cry.svg), url(../../img/unity.svg),
+      url(../../img/unreal.svg);
+    background-repeat: no-repeat;
+    background-position: 770px 110px, 570px 290px, 1070px 120px;
+    background-size: 100px 100px, 100px 30px, 59px 64px;
+    &-content {
+      &__header {
+        color: #e87d0e;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 155.2%;
+      }
+      &__title {
+        width: 479px;
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 155%;
+        margin-bottom: 26px;
+      }
+
+      &__text {
+        width: 450px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 200%;
+        margin-bottom: 50px;
+      }
+    }
+    &-button {
+      cursor: pointer;
+      border-radius: 27px;
+      background: #fa9021;
+      font-weight: 500;
+      width: 195px;
+      height: 41px;
+      border: 2px solid transparent;
+      color: #fff;
+      font-size: 16px;
+      transition: 0.5s ease-in-out;
+    }
+    &-button:hover {
+      background-color: transparent;
+      border: 2px solid #fff;
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
