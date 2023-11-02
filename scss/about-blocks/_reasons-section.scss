@@ -1,0 +1,67 @@
+.reasons__section {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 77px;
+  padding-bottom: 147px;
+
+  .reasons__main-div {
+    .reasons__title {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 180%;
+      margin-bottom: 63px;
+    }
+  }
+  .reasons__cards-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 43px;
+  }
+
+  .reasons__cards {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #1c140f;
+    box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+    padding: 64px 37px;
+
+    .reasons__cards-link {
+      padding: 7px 35px 6px 14px;
+      color: #fff;
+      font-size: 14px;
+      line-height: 187%;
+      height: 39px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      background-color: rgba(176, 0, 220, 0.11);
+      margin-bottom: 18px;
+      transition: all 0.4s ease-in-out;
+      text-align: center;
+
+      &:hover {
+        transition: all 0.4s ease-in-out;
+        color: #e47500;
+        background-color: transparent;
+        border: 1px solid #e47500;
+      }
+    }
+
+    .reasons__cards-title {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 187.5%;
+      margin-bottom: 16px;
+    }
+
+    .reasons__cards-text {
+      color: #fff;
+      line-height: 187.5%;
+    }
+  }
+}

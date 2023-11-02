@@ -1,0 +1,37 @@
+.lorem__section {
+  padding-bottom: 148px;
+  .lorem__bg-color {
+    background-color: #1c140f;
+  }
+  .lorem__main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 113px;
+  }
+
+  .lorem__wrapper {
+    max-width: 536px;
+    &-link {
+      color: #fff;
+      font-weight: 500;
+      line-height: 202%;
+      margin-bottom: 14px;
+    }
+
+    &-title {
+      width: 531px;
+      color: #fff;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 157%;
+      margin-bottom: 14px;
+    }
+
+    &-text {
+      width: 536px;
+      color: #fff;
+      line-height: 202%;
+    }
+  }
+}

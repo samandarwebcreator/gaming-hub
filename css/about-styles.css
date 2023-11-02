@@ -124,361 +124,232 @@ body {
   transition: 0.5s ease-in-out;
 }
 .header .header__main-div .header__nav-button:hover {
+  color: #e47500;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #e47500;
   transition: 0.5s ease-in-out;
 }
 
-.hero__wrapper {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 100px;
-  padding-bottom: 85px;
-  background-image: url(../../img/cry.svg), url(../../img/unity.svg), url(../../img/unreal.svg);
-  background-repeat: no-repeat;
-  background-position: 770px 110px, 570px 290px, 1070px 120px;
-  background-size: 100px 100px, 100px 30px, 59px 64px;
+.hero {
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 77px;
 }
-.hero__wrapper-content__header {
-  color: #e87d0e;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 155.2%;
-}
-.hero__wrapper-content__title {
-  width: 479px;
-  color: #fff;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 155%;
-  margin-bottom: 26px;
-}
-.hero__wrapper-content__text {
-  width: 450px;
-  color: #fff;
-  font-weight: 500;
-  line-height: 200%;
-  margin-bottom: 50px;
-}
-.hero__wrapper-button {
-  cursor: pointer;
-  border-radius: 27px;
-  background: #fa9021;
-  font-weight: 500;
-  width: 195px;
-  height: 41px;
-  border: 2px solid transparent;
-  color: #fff;
-  font-size: 16px;
-  transition: 0.5s ease-in-out;
-}
-.hero__wrapper-button:hover {
-  background-color: transparent;
-  border: 2px solid #fff;
-  transition: 0.5s ease-in-out;
-}
-
-.header__hero {
-  background-image: url(../../img/herobg.png);
-  background-repeat: no-repeat;
-  background-size: 776px 701px;
-  background-position: 733px 0px;
-}
-
-.trending__games-section {
-  padding-top: 85px;
-  padding-bottom: 60px;
-}
-.trending__games-section .trending__main-div .trending__title-wrapper {
+.hero .hero__main-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 57px;
-  padding-left: 45px;
-  padding-right: 45px;
 }
-.trending__games-section .trending__main-div .trending__title-wrapper__header {
-  color: #fff;
-  font-family: "Rubik", Arial, sans-serif;
-  font-size: 31px;
-  font-weight: 700;
-  line-height: 187.5%;
-}
-.trending__games-section .trending__main-div .trending__title-wrapper__button {
-  cursor: pointer;
-  color: #fff;
-  font-family: "Rubik", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 187.5%;
-  width: 139px;
-  height: 57px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.11);
-  border: 2px solid transparent;
-  transition: 0.4s ease-in-out;
-}
-.trending__games-section .trending__main-div .trending__title-wrapper__button:hover {
-  background-color: transparent;
-  border: 2px solid #e87d0e;
-  color: #e87d0e;
-}
-.trending__games-section .trending__main-div .trending__img-wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.trending__games-section .trending__main-div .trending__img-wrapper .trending__card {
-  width: 251px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 251px;
-}
-.trending__games-section .trending__main-div .trending__img-wrapper .trending__card-wrapper {
-  overflow: hidden;
-  border: 2px solid transparent;
-  width: 251px;
-  height: 277px;
-  border-radius: 20px;
-}
-.trending__games-section .trending__main-div .trending__img-wrapper .trending__card-wrapper__img {
-  cursor: pointer;
-  margin-bottom: 25px;
-  transition: all 0.3s;
-}
-.trending__games-section .trending__main-div .trending__img-wrapper .trending__card-wrapper__img:hover {
-  transform: scale(1.1);
-}
-.trending__games-section .trending__main-div .trending__img-wrapper .trending__card-content {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  margin-top: 25px;
-}
-.trending__games-section .trending__main-div .trending__img-wrapper .trending__card-content__text {
-  font-family: "rubik";
-  color: #fff;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 187.5%;
-}
-
-.spiderman__section {
-  padding-top: 60px;
-  padding-bottom: 157px;
-}
-.spiderman__section .spiderman__main-div {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-direction: column;
-}
-.spiderman__section .spiderman__main-div .spiderman__header {
-  width: 826px;
-  color: #fff;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 600;
-  line-height: 187.5%;
-  margin-bottom: 67px;
-}
-.spiderman__section .spiderman__main-div .spiderman__wrapper {
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  flex-direction: column;
-  background-image: url(../../img/dotsimg.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: 196px 154px;
-  background-position: 830px 158px;
-}
-.spiderman__section .spiderman__main-div .spiderman__wrapper-title {
+.hero .hero__main-wrapper .hero__content-wrapper .hero__title {
+  width: 425px;
   color: #fff;
   font-size: 30px;
-  font-weight: 600;
-  line-height: 187.5%;
-  margin-bottom: 32px;
+  font-weight: 700;
+  line-height: 180.5%;
+  margin-bottom: 25px;
 }
-.spiderman__section .spiderman__main-div .spiderman__wrapper-text {
-  width: 545px;
+.hero .hero__main-wrapper .hero__content-wrapper .hero__text {
+  width: 414px;
   color: #fff;
-  line-height: 187.5%;
-  margin-bottom: 46px;
+  font-size: 15px;
+  line-height: 208.5%;
+  margin-bottom: 57px;
 }
-.spiderman__section .spiderman__main-div .spiderman__wrapper .spiderman__inner-wrapper {
+.hero .hero__main-wrapper .hero__content-wrapper .hero__button {
+  padding: 10px 16px;
+  text-align: center;
+  border-radius: 40px;
+  background: #fa9021;
+  width: 176px;
+  height: 47px;
   border: 2px solid transparent;
-  overflow: hidden;
-  border-radius: 5px;
-  width: 1146px;
-  height: 462px;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  font-weight: 500;
 }
-.spiderman__section .spiderman__main-div .spiderman__wrapper .spiderman__inner-wrapper-img {
-  cursor: pointer;
-  border-radius: 5px;
-  transition: 0.3s ease-in-out;
+.hero .hero__main-wrapper .hero__content-wrapper .hero__button:hover {
+  color: #e47500;
+  background-color: transparent;
+  border: 2px solid #e47500;
+  transition: 0.5s ease-in-out;
 }
-.spiderman__section .spiderman__main-div .spiderman__wrapper .spiderman__inner-wrapper-img:hover {
-  width: 1146px;
-  height: 462px;
-  transform: scale(1.1);
-  transition: 0.3s ease-in-out;
-}
-
-.gameinfo__ng-container {
-  width: 1440px;
-  margin: 0 auto;
-}
-
-.gameinfo__bg-img {
-  background-image: url(../img/gameinfobg.png);
-  background-repeat: no-repeat;
-  background-size: 1940px 881px;
-  background-position: center;
-}
-
-.gameinfo__main-div {
+.hero .hero__content-inner {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: start;
+  margin-bottom: 38px;
+}
+.hero .hero__content-inner .hero__title-link {
+  color: #fff;
+  font-size: 12px;
+  line-height: 208%;
+}
+.hero .hero__content-inner .hero__title-link--active {
+  color: #e47500;
+}
+.hero .hero__image-wrapper {
+  width: 739px;
+  height: 656px;
+  position: relative;
+  margin-right: -100px;
+}
+.hero .hero__image-wrapper .hero__img-pages {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  padding: 17px 28px;
+  cursor: pointer;
+}
+.hero .hero__image-wrapper .hero__img-pages__text {
+  color: #fff;
+  font-weight: 500;
+  line-height: 208.5%;
+}
+
+.reasons__section {
   padding-left: 80px;
   padding-right: 80px;
+  padding-top: 77px;
+  padding-bottom: 147px;
 }
-.gameinfo__main-div .gameinfo__content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.gameinfo__main-div .gameinfo__content-title {
-  width: 826px;
+.reasons__section .reasons__main-div .reasons__title {
   color: #fff;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 187.5%;
-  margin-bottom: 25px;
-  padding-top: 93px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 180%;
+  margin-bottom: 63px;
 }
-.gameinfo__main-div .gameinfo__content-text {
-  color: #fff;
-  text-align: center;
-  line-height: 187.5%;
-  width: 820px;
-  margin-bottom: 99px;
-}
-.gameinfo__main-div .gameinfo__cards {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.gameinfo__main-div .gameinfo__cards .gameinfo__inner-card {
+.reasons__section .reasons__cards-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
-  margin-bottom: 62px;
+  gap: 43px;
 }
-.gameinfo__main-div .gameinfo__cards .gameinfo__inner-card .gameinfo__card {
+.reasons__section .reasons__cards {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
+  border-radius: 20px;
+  background-color: #1c140f;
+  box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+  padding: 64px 37px;
 }
-.gameinfo__main-div .gameinfo__cards .gameinfo__inner-card .gameinfo__card-img {
-  cursor: pointer;
-  background-color: #fff;
-  padding: 17px;
-  border: 2px solid transparent;
-  border-radius: 50px;
-  margin-bottom: 30px;
-  transition: 0.4s ease-in-out;
-}
-.gameinfo__main-div .gameinfo__cards .gameinfo__inner-card .gameinfo__card-img:hover {
-  background-color: transparent;
-  padding: 17px;
-  border-radius: 50px;
-  margin-bottom: 30px;
-  border: 2px solid #dc7000;
-  transition: 0.4s ease-in-out;
-  transform: scale(1.08);
-}
-.gameinfo__main-div .gameinfo__cards .gameinfo__inner-card .gameinfo__card-text {
+.reasons__section .reasons__cards .reasons__cards-link {
+  padding: 7px 35px 6px 14px;
   color: #fff;
+  font-size: 14px;
+  line-height: 187%;
+  height: 39px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: rgba(176, 0, 220, 0.11);
+  margin-bottom: 18px;
+  transition: all 0.4s ease-in-out;
   text-align: center;
-  font-weight: 500;
+}
+.reasons__section .reasons__cards .reasons__cards-link:hover {
+  transition: all 0.4s ease-in-out;
+  color: #e47500;
+  background-color: transparent;
+  border: 1px solid #e47500;
+}
+.reasons__section .reasons__cards .reasons__cards-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 187.5%;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+}
+.reasons__section .reasons__cards .reasons__cards-text {
+  color: #fff;
+  line-height: 187.5%;
 }
 
-.recent__projects {
-  padding-top: 148px;
-  padding-bottom: 52px;
+.lorem__section {
+  padding-bottom: 148px;
 }
-.recent__projects .recent__projects-main__div {
+.lorem__section .lorem__bg-color {
+  background-color: #1c140f;
+}
+.lorem__section .lorem__main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 113px;
+}
+.lorem__section .lorem__wrapper {
+  max-width: 536px;
+}
+.lorem__section .lorem__wrapper-link {
+  color: #fff;
+  font-weight: 500;
+  line-height: 202%;
+  margin-bottom: 14px;
+}
+.lorem__section .lorem__wrapper-title {
+  width: 531px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 157%;
+  margin-bottom: 14px;
+}
+.lorem__section .lorem__wrapper-text {
+  width: 536px;
+  color: #fff;
+  line-height: 202%;
+}
+
+.members .members__main-div {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.members__title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 53px;
+  line-height: 180%;
+}
+.members .members__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.members .members__wrapper-inner {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-.recent__projects .recent__projects-main__div .recent__projects-header__title {
-  color: #fff;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 187.5%;
-  margin-bottom: 15px;
-}
-.recent__projects .recent__projects-main__div .recent__projects-header__text {
-  width: 497px;
-  color: #fff;
-  text-align: center;
-  font-size: 14px;
-  line-height: 187.5%;
-  margin-bottom: 71px;
-}
-.recent__projects .recent__projects-main__div .recent__projects-examples-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 27px;
-  padding-bottom: 33px;
-  overflow: hidden;
-}
-.recent__projects .recent__projects-main__div .recent__projects-examples-wrapper__img {
-  cursor: pointer;
-  border: 2px solid transparent;
-  transition: all 0.4s ease-in-out;
+  width: 295px;
   border-radius: 20px;
-}
-.recent__projects .recent__projects-main__div .recent__projects-examples-wrapper__img:hover {
+  background-color: #1c140f;
+  padding-top: 35px;
+  padding-bottom: 30px;
   transition: all 0.4s ease-in-out;
-  border: 2px solid #e87d0e;
-  border-radius: 20px;
-  opacity: 0.8;
-}
-.recent__projects .recent__projects-main__div .recent__projects-button__div .recent__projects-button {
-  cursor: pointer;
-  color: #fff;
-  font-family: "Rubik", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 187.5%;
-  width: 139px;
-  height: 57px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.11);
   border: 2px solid transparent;
-  transition: 0.4s ease-in-out;
-  margin-top: 39px;
 }
-.recent__projects .recent__projects-main__div .recent__projects-button__div .recent__projects-button:hover {
-  background-color: transparent;
-  border: 2px solid #e87d0e;
-  color: #e87d0e;
+.members .members__wrapper-inner:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.members .members__wrapper-inner .members__name {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 202%;
+}
+.members .members__wrapper-inner .members__text {
+  color: #e8e8e8;
+  font-weight: 300;
+  line-height: 202%;
+  margin-top: -10px;
 }
 
 .subscription {
@@ -659,4 +530,4 @@ body {
   padding-top: 29px;
   padding-bottom: 29px;
   text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=about-styles.css.map */
